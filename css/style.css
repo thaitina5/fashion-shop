@@ -107,7 +107,6 @@ body{
     font-weight: 600;
     color: #1a1a1a;
     padding: 20px 20px;
-    /* height: 100%; */
     display: block;
 }
 
@@ -129,6 +128,15 @@ body{
 
 #navbar .navbar_cart-icon {
     font-size: 24px;
+}
+
+/* mobile navbar */
+#mobile {
+    display: none;
+}
+
+#close {
+    display: none;
 }
 
 /* Hero */
@@ -175,7 +183,9 @@ body{
 /* Feature */
 #feature {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #feature .fe-box {
@@ -351,7 +361,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     background-image: url("../img/banner/b6.jpg");
-    min-width: 580px;
+    width: 50%;
     height: 40vh;
     background-size: cover;
     background-position: center;
